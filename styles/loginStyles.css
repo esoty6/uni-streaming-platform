@@ -1,0 +1,255 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+body {
+    background: radial-gradient(ellipse at right, rgb(77, 77, 173), rgb(24, 83, 177), rgb(0, 0, 0), transparent 190%);
+    padding: 0;
+    color: white;
+    margin-top: 3em;
+}
+
+.navbar a, .buy a{
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.buy a:hover {
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.buy a {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    left: 37%;
+    right: 37%;
+    text-align: center;
+}
+
+.navbar{
+    background-color: rgb(92, 52, 236);
+}
+
+a:hover {
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transition-duration: 500ms;
+    text-shadow: none;
+}
+
+.movies {
+    text-align: center;
+    font-weight: 999;
+    text-shadow: 0px 0px 5px black;
+    text-transform: uppercase;
+    position: relative;
+    padding-top: 3em;
+    padding-bottom: 4em;
+    background: 
+    radial-gradient(ellipse at top, #e66465, transparent 60%),
+    radial-gradient(circle at center, #00c2a2, transparent 30%),
+    radial-gradient(ellipse at bottom, #9300f5, transparent 50%);
+}
+
+.infoTop {
+    text-align: center;
+    font-weight: 999;
+    text-shadow: 3px 2px black;
+    text-transform: uppercase;
+}
+
+
+#circle {
+    background: orangered;
+    position: relative;
+    left: 0;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.proposition {
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie-list{
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.movie-list img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 2em black;
+}
+
+.proposition img {
+    width: 260px;
+    height: 350px;
+    box-shadow: 0 0 2em black;
+}
+
+.footer{
+    background-color: rgb(0, 92, 230);
+    text-align: center;
+    font-weight: 500;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+input {
+    width: 100%;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.przycisk{
+    text-align: right;
+}
+
+.btn {
+    color: white;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: rgb(92, 52, 236);
+    box-shadow: 2px 2px rgb(70, 38, 189);
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    text-shadow: none;
+    
+    transition: all 0.35s ease;
+    transform: scale(1.1, 1.1);
+}
+
+.registration {
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+}
+
+.movies-login {
+    background-blend-mode: saturation;
+    text-align: center;
+    font-weight: 999;
+    text-shadow: 3px 2px black;
+    text-transform: uppercase;
+}
+
+.plans {
+    position: relative;
+    padding-top: 3em;
+    padding-bottom: 4em;
+    background: 
+    radial-gradient(ellipse at top, #fd4848, transparent 100%),
+    radial-gradient(circle at center, #00816c, transparent 80%),
+    radial-gradient(circle at left, #00352c, transparent 80%),
+    radial-gradient(circle at right, #8e00e0, transparent 80%),
+    radial-gradient(ellipse at bottom, #9300f5, transparent 60%);
+}
+
+.pack {
+    font-size: large;
+    font-weight: bold;
+    border-radius: 20px;
+    transform: scale(0.85, 0.85);
+}
+
+.pack:hover {
+    background: radial-gradient(circle at bottom, rgb(0, 214, 186), transparent 90%),
+    radial-gradient(ellipse at top, #ff3b3b, transparent 75%);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all .8s ease;
+}
+
+hr {
+    margin-top: 0;
+}
+
+.change {
+    text-align: right;
+    font-size: large;
+}
+
+.error {
+    background: red;
+    font-size: large;
+    text-align: center;
+}
+
+.update-failure {
+    color: rgb(255, 0, 0);
+    font-weight: 500;
+    text-shadow: 0px 0px 5px black;
+}
+.update-succes {
+    color: rgb(0, 247, 0);
+    font-weight: 500;
+    text-shadow: 0px 0px 5px black;
+}
+
+#adminTable, td, tr, th{
+    border: 4px solid black ;
+    text-align: center;
+    font-size: large;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.delete:hover {
+    background: red !important;
+    transition: all 0.35s ease;
+    box-shadow: 0px 0px 10px red !important;
+    transform: scale(1.1, 1.1);
+}
+
+tr {
+    background: rgb(0, 89, 119);
+}
+
+a {
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0px 10px 0 10px;
+}
+
+tr:not(:first-child):hover{
+    background: rgb(0, 122, 163);
+}
+
+.btn {
+    margin-top: 10px !important;
+}
